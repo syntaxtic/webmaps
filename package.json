@@ -1,0 +1,33 @@
+{
+  "name": "webmaps",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "lint": "next lint",
+    "prettify": "prettier --write \"./**/*.{js,jsx,ts,tsx,json,yaml,yml}\"",
+    "format": "npm run prettify && npm run lint"
+  },
+  "dependencies": {
+    "maplibre-gl": "^3.6.2",
+    "next": "14.0.3",
+    "pmtiles": "^2.11.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-map-gl": "^7.1.6",
+    "swr": "^2.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8.55.0",
+    "eslint-config-next": "14.0.3",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "^3.1.0",
+    "typescript": "^5"
+  }
+}
